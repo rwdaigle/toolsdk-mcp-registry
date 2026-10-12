@@ -1,0 +1,21 @@
+{
+  "type": "mcp-server",
+  "name": "Ember Websites",
+  "packageName": "@toolsdk-remote/ember-websites",
+  "description": "Describe your business and get a beautiful website, built, hosted and published for you from Claude or ChatGPT. Ember's hosted MCP server creates, edits, previews and publishes content websites. Requires an Ember account via OAuth; free to build and preview, paid plans to publish.",
+  "url": "https://embersites.com",
+  "readme": "https://embersites.com/mcp/",
+  "logo": "https://embersites.com/apple-touch-icon.png",
+  "runtime": "node",
+  "author": "Ember Websites",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://embersites.app/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}
